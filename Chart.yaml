@@ -1,0 +1,6 @@
+apiVersion: v2
+name: setting-gorizond-install-server
+description: Url to generator install script in rancher global settings
+type: application
+version: 0.1.0
+appVersion: "1.16.0"

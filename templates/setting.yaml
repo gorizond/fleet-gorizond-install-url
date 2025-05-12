@@ -1,0 +1,9 @@
+apiVersion: management.cattle.io/v3
+kind: Setting
+metadata:
+  name: gorizond-install-server-url
+spec: {}
+customized: true
+default: '{{ .Values.url }}'
+source: ''
+value: '{{ .Values.url }}'

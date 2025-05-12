@@ -1,0 +1,3 @@
+helm:
+  values:
+    url: ${ if hasKey .ClusterAnnotations "gorizond.domain.install" }${ get .ClusterAnnotations "gorizond.domain.install" }${ else }http://gorizond.cluster${ end }
